@@ -109,5 +109,7 @@ def whatsapp_reply():
 
 # Esto hace que nuestro recepcionista empiece a trabajar
 # ¡IMPORTANTE! Asegúrate de que tus dos terminales (la de python y la de ngrok) siguen abiertas.
+# Esta parte solo se usa si ejecutamos el archivo directamente,
+# gunicorn no la usa, pero la dejamos lista para el futuro.
 if __name__ == '__main__':
-    app.run(port=5000, debug=True)
+    app.run()
