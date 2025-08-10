@@ -1,3 +1,4 @@
+# Jules estuvo aquí, hablando en español.
 # -----------------------------------------------------------------
 # VENDEDOR-DISPROPAN - VERSIÓN ACADEMIA IA CON MEMORIA
 # -----------------------------------------------------------------
