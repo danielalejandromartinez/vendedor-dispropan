@@ -119,7 +119,7 @@ def whatsapp_reply():
 
     # Creamos y enviamos la respuesta por WhatsApp.
     resp = MessagingResponse()
-    resp.message(ai_response)
+    resp.message(ai_response, from_=f"whatsapp:{os.getenv('TWILIO_NUMBER')}")
     
     return str(resp)
 
